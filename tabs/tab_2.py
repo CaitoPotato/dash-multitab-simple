@@ -4,10 +4,10 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 tab_2_layout = html.Div([
-    html.H1('Page 2'),
+    html.H1('Supply Chain Inputs'),
     html.Div([
         html.Div([
-            html.H6('Select one:'),
+            html.H6('Select a production rate:'),
             dcc.RadioItems(
                 id='page-2-radios',
                 options=[{'label': i, 'value': i} for i in ['10 TPD', '50 TPD', '100 TPD']],
@@ -18,9 +18,9 @@ tab_2_layout = html.Div([
                     verticalAlign = "middle"
                     ),
             ),
-        ], className='four columns'),
+        ], className='eight columns'),
         html.Div([
             html.H6(id='page-2-content')
-        ], className='eight columns'),
+        ], className='twelve columns'),
     ], className='twelve columns'),
 ], className='twelve columns')

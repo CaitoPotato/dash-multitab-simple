@@ -4,7 +4,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 tab_1_layout = html.Div([
-    html.H1('Supplu Chain Inputs'),
+    html.H1('Supply Chain Inputs'),
     html.Div([
         html.Div([
             html.H6('Choose an electricity generation method:'),
@@ -18,9 +18,9 @@ tab_1_layout = html.Div([
                             verticalAlign = "middle"
                             ),
             ),
-        ], className='four columns'),
+        ], className='two columns'),
         html.Div([
             html.H6(id='Choose an electricity generation method')
-        ], className='eight columns'),
+        ], className='two columns'),
     ], className='twelve columns'),
 ], className='twelve columns')

@@ -10,7 +10,7 @@ tab_2_layout = html.Div([
             html.H6('Select one:'),
             dcc.RadioItems(
                 id='page-2-radios',
-                options=[{'label': i, 'value': i} for i in ['Orange', 'Blue', 'Red']],
+                options=[{'label': i, 'value': i} for i in ['10 TPD', '50 TPD', '100 TPD']],
                 value='Orange',
                 style = dict(
                     width = '70%',

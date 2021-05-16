@@ -20,7 +20,7 @@ tab_1_layout = html.Div([
             ),
         ], className='eight columns'),
         html.Div([
-            html.H6(id='Choose an electricity generation method')
+            html.H6(id='page-1-content')
         ], className='twelve columns'),
     ], className='twelve columns'),
 ], className='twelve columns')

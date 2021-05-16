@@ -18,9 +18,9 @@ tab_1_layout = html.Div([
                             verticalAlign = "middle"
                             ),
             ),
-        ], className='two columns'),
+        ], className='eight columns'),
         html.Div([
             html.H6(id='Choose an electricity generation method')
-        ], className='two columns'),
+        ], className='twelve columns'),
     ], className='twelve columns'),
 ], className='twelve columns')

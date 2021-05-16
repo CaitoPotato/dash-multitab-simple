@@ -4,10 +4,10 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 tab_1_layout = html.Div([
-    html.H1('Page 1'),
+    html.H1('Supplu Chain Inputs'),
     html.Div([
         html.Div([
-            html.H6('Select one:'),
+            html.H6('Choose an electricity generation method:'),
             dcc.Dropdown(
                 id='page-1-dropdown',
                 options=[{'label': i, 'value': i} for i in ['Solar PV', 'Onshore Wind', 'CCGT w/CCS']],
